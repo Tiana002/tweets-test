@@ -1,9 +1,12 @@
-import { Container, Title } from './ErrorPage.styled';
+import { Container, Img } from './ErrorPage.styled';
+import bird from '../../assets/404.png';
+
+
 
 const ErrorPage = () => {
   return (
     <Container>
-      <Title>404</Title>
+      <Img src={bird} width="50%" alt="error" />
     </Container>
   );
 };
